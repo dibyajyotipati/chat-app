@@ -5,7 +5,7 @@ const app = express();
 dotenv.config();
 
 app.get("/", (req, res) => {
-  res.send("API  is running");
+  res.send("API  running");
 });
 
 const PORT = process.env.PORT || 5000;
